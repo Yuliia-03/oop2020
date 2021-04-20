@@ -17,7 +17,8 @@ class Menu:
             MenuItem(name="мак'ято", water=200, milk=150, coffee=24, cost=65.0),
             MenuItem(name="мокко", water=50, milk=0, coffee=18, cost=52.0),
             MenuItem(name="по-віденські", water=250, milk=50, coffee=24, cost=75.0),
-            MenuItem(name="глясе", water=250, milk=110, coffee=20, cost=50)
+            MenuItem(name="глясе", water=250, milk=110, coffee=20, cost=50),
+            MenuItem(name="еспресо", water=150, milk=100, coffee=20, cost=60.0),
         ]
 
     def get_items(self):
